@@ -49,8 +49,8 @@ y = torch.randn(10, 2)
 
 # Build a fully connected layer.
 linear = nn.Linear(3, 2)
-print ('w: ', linear.weight)
-print ('b: ', linear.bias)
+print('w: ', linear.weight)
+print('b: ', linear.bias)
 
 # Build loss function and optimizer.
 criterion = nn.MSELoss()
